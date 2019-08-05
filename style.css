@@ -1,0 +1,129 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 30px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+.nav img{
+    padding: 10px;
+    height: 50px;
+    width: auto;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /*set nav to fixed position */
+    top: 0; /* position nav at top of the page */
+    width: 100%; /*full width*/
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    z-index: 1;
+}
+
+.nav a{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 19px 18px;
+    color: seashell;
+}
+
+.mission img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1300px;
+    width: 1800px;
+}
+
+.mission{
+    position: relative;
+    top:70px;
+    text-align: center;
+    color: seashell;
+}
+
+.text-block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+}
+
+.featured{
+    width: 1600px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.featured-product{
+    float: left;
+    margin: 60px;
+    display: block;
+}
+
+.featured-product img{
+    width: 400px;
+    height: 300px
+}
+
+.featured-product .desc{
+    padding: 10px;
+    text-align: center;
+}
+
+#indent{
+    margin-left: 350px;
+}
+
+.location{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.location img{
+    height: 1000px;
+    width: 1800px;
+}
+
+.location-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.parent-location-desc {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 60%;
+    justify-content: center;
+}
+
+.location-desc{
+    margin-right: 60px;
+    background-color: black;
+    width: 400px;
+}
+
+.info{
+    text-align: center;
+}
+
+footer{
+    /*padding-left: 100px;*/
+    margin: 50px;
+    text-align: left;
+}
